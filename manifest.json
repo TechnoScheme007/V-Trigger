@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "V-Trigger",
+  "version": "1.0.0",
+  "description": "Filter Facebook posts by keywords — take control of your feed",
+  "author": "V-Trigger",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "V-Trigger",
+    "default_icon": {
+      "48": "icons/icon48.svg",
+      "96": "icons/icon96.svg"
+    }
+  },
+  "icons": {
+    "48": "icons/icon48.svg",
+    "96": "icons/icon96.svg"
+  }
+}

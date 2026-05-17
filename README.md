@@ -25,12 +25,6 @@ The extension runs entirely in your browser. No data is collected, no network re
 
 ---
 
-## Screenshots
-
-> Coming soon — the extension is currently in private testing.
-
----
-
 ## Installation (Developer / Temporary)
 
 The extension is not yet listed on the Firefox Add-ons store. To use it now:
